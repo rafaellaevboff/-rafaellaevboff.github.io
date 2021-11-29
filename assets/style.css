@@ -176,7 +176,6 @@ header a:hover{
     border-radius: 15%;
     padding: 50px;
     text-align: center;
-    margin-top: 20px;
 }
 
 .linkArtigo a{
@@ -192,13 +191,12 @@ header a:hover{
 }
 
 .todosArtigos{
-    margin-top: 30px;
     font-family: 'Anton', sans-serif;
     font-family: 'Inconsolata', monospace;
 }
 
 .todosArtigos h1{
-    margin-left: 20px;
+    margin: 20px;
 }
 
 /*ARTIGOS*/
