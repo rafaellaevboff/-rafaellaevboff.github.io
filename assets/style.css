@@ -1,0 +1,234 @@
+:root{
+    --fundo: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    --botao: linear-gradient(to top, #b224ef 0%, #7579ff 100%);;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #e5e8e8;
+	color: white;
+	margin: 0;
+	font-family: 'Quicksand';
+    background-image: var(--fundo);
+}
+
+/*FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200;400&display=swap');
+
+.flex-containerC{
+    display: flex;
+    max-width: 710px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 710px;
+    margin: auto;
+}
+
+/*NAVBAR*/
+section h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-size: 65px;
+}
+
+section h3{
+    padding-top: 15px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+header .navbar{
+    background-color: #5430DA;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    max-width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+
+header a{
+    display: flex;
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*APRESENTAÇÃO INICIAL*/
+.contPrincipal{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-left: 10%;
+    align-items: center;
+}
+
+#contato{
+    display: flex;
+    text-align: center;
+}
+
+#contato a {
+    min-height: 20px;
+    min-width: 100px;
+
+    margin-top: 20px;
+    padding: 15px 25px;
+    
+    align-items: center;
+
+    text-decoration: none;
+    text-align: center;
+	color: white;
+    font-size: 24px;
+    margin-right: 10px;
+
+    border: none;
+    border-radius: 40px;
+
+    line-height: 10px;
+
+    background-image: var(--botao);
+    transition: all 0.3s linear;
+}
+
+#contato a:hover{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    color: black;
+}
+
+.minhaFoto{
+    display: block;
+    max-width:256px;
+    border-radius: 25%;
+    margin-left: 150px;
+}
+
+/*PROJETOS*/
+.todosProjetos{
+    margin-top: 70px;
+}
+
+.todosProjetos h1{
+    margin: 20px;
+}
+
+.projeto{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 150px;
+    border-radius: 15%;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+#projetos .projeto a{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin-top: 25px;
+}
+
+#projetos .projeto img{
+    width: 30px;
+}
+
+#projetos .projeto a:hover{
+    background-image: var(--botao);
+
+}
+
+
+/*LINK ARTIGOS*/
+.linkArtigo{
+    background-color: azure;
+    width: 300px;
+    height: 150px;
+    border-radius: 15%;
+    padding: 50px;
+    text-align: center;
+}
+
+.linkArtigo a{
+    padding-top: 22px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.linkArtigo a:hover{
+    color: #6618CE;
+}
+
+.todosArtigos{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Inconsolata', monospace;
+}
+
+/*ARTIGOS*/
+.artigo{
+    color: white;
+    max-width: 1200px;
+    text-align: justify;
+    margin: 50px;
+}
+
+.artigo a{
+    text-decoration: none;
+    color: var(--botao)(2, 1, 1);
+}
+
+.artigo a:hover{
+    color: darkslategrey;
+}
+
+.artigo h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.artigo p{
+    font-size: 24px;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    height: 80px;
+    background-color: #5430DA;
+}
+
+footer h3{
+    margin-left: 60%;
+}

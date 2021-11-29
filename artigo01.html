@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/responsive.css"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JAVA e JUnit</title>
+</head>
+<body>
+    <main class="flex-containerC artigo">
+        <h1>Anexar JUnit em projeto Java e fazer testes (ambiente de desenvolvimento: IntelliJ)</h1>
+        <p>
+            Em um trabalho em grupo da faculdade meu grupo escolheu utilizar essas duas tecnologias. Tivemos um pouco de dificuldade de anexar o JUnit, pois haviam muitos tutoriais de diferentes formas de o anexar. A melhor forma que achamos foi utilizando o Maven. Caso você saiba de outra forma ficaria interessada em saber também!
+            <br>Para fazer os testes fiz um código simples, de uma calculadora com 5 operações. Caso deseje ver o projeto que fiz utilizando essas tecnologias basta <a href="https://github.com/rafaellaevboff/Ulbra/tree/main/2021-2/Engenharia%20de%20Software/trabalho_testesJunit/testeCalculadora" target="_blank"><b>clicar aqui</b></a>.
+            <br><br>
+            <b>Como fazer:</b>
+            <ul>
+                <li>Acessar o site "Maven Repository", procurar por JUnit e escolher o que tem mais usuários;</li>
+                <li>Escolher a versão desejada do JUnit e copiar o código disponível na aba Maven;</li>
+                <li>Iniciar um projeto no IntelliJ com o Maven;</li>
+                <li>No arquivo xml que irá ser criado após o projeto ser inicializado adicionar dentro de <dependencies></dependencies> o código copiado no site;</li>
+                <li>Na pasta Main->Java criar um pacote com o código que deseja testar;</li>
+                <li>Na pasta test->Java criar um pacote e Class;</li>
+                <li>Na Class da pasta test "linkar" a Class que está seu código a ser testado, dentro da class clicar com o botão direito do mouse e em Generate escolher "Test Method" e criar o código de teste;</li>
+                <li>Há uma documentação na internet sobre o que pode fazer com o JUnit, basta pesquisar por API + versão do JUnit que foi anexado.</li>
+            </ul>
+        </p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+@media screen and (max-width: 755px){
+    #contato{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .minhaFoto{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1165px){
+    body{
+        margin: 00px;
+        padding: 00px;
+    }
+
+    .minhaFoto{
+        width: 70%;
+        margin: auto;
+    }
+
+    #contato{
+        margin-bottom: 50px;
+    }
+
+    .contPrincipal{
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .projeto{
+        width: 240px;
+        margin-left: 10px;
+    }
+
+    footer h3{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .linkArtigo{
+        width: 240px;
+        margin-top: 10px;
+    }
+
+    .artigo li{
+        font-size: 20px;;
+    }
+}
