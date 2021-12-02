@@ -8,6 +8,10 @@
         width: 60%;
         margin: auto;
     }
+
+    .artigo ul{
+        margin-left: 15px;
+    }
 }
 
 @media screen and (max-width: 1165px){
@@ -45,6 +49,14 @@
     }
 
     .artigo li{
-        font-size: 20px;;
+        font-size: 20px;
+    }
+
+    .artigo h1{
+        padding-top: 20px;
+    }
+
+    .conteudo h2{
+        margin-top: 10%;
     }
 }

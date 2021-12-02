@@ -1,0 +1,117 @@
+:root{
+    --fundo: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    --botao: linear-gradient(to top, #b224ef 0%, #7579ff 100%);;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #e5e8e8;
+	color: white;
+	margin: 0;
+	font-family: 'Quicksand';
+    background-image: var(--fundo);
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+/*NAVBAR*/
+header .navbar{
+    background-color: #5430DA;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    max-width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+
+header a{
+    display: flex;
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*CLASSES*/
+.flex-containerC{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+    margin: auto;
+}
+
+.conteudo{
+    margin: 2% 7%;
+    text-align: justify;
+}
+
+.lista{
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+
+/*TAGS*/
+h1{
+    text-align: center;
+    margin: 2% 0%;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 2.5%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #b675ff;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #5430DA;
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer h3{
+    margin: auto;
+}
+

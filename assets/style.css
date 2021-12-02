@@ -230,11 +230,11 @@ header a:hover{
 footer{
     display: flex;
     align-items: center;
-    margin-top: 30px;
-    height: 80px;
+    margin-top: 15px;
+    height: 110px;
     background-color: #5430DA;
-}
+    }
 
 footer h3{
-    margin-left: 60%;
+    margin: auto;
 }

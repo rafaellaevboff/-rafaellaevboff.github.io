@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/responsive.css"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/artigos.css">
+
+    <title>SQL</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="./index.html">Página Inicial</a>
+        </nav>
+    </header>
+
+    <main class="flex-containerC artigo">
+
+        <h1>SQL (Structured Query Language)</h1>
+
+        <div class="conteudo">
+            <h2>CRIAR E MANIPULAR TABELAS EM SQL - DDL</h2>
+            <br>
+
+            <h3>CRIAR TABELAS</h3>
+            <p>
+                CREATE TABLE nomeDaTabela
+            </p>
+
+            <h3>ALTERAR DEFINIÇÕES DE TABELA</h3>
+            <p>
+                ALTER TABLE nomeDaTabela
+            </p>
+
+            <h3>REMOVER TABELA</h3>
+            <p>
+                DROP TABLE nomeDaTabela
+                Elimina toda a tabela e não há como recuperá-la.
+            </p>
+
+            <h3>CHAVE PRIMÁRIA</h3>
+            <p>
+                <b>Primary key</b> <br>
+                É adicionada em uma coluna da tabela, vai ficar responsável por tornar cada elemento único. Nunhum elemento pode ter uma chave primária igual.
+            </p>
+
+
+            <h3>CHAVE ESTRANGEIRA</h3>
+            <p>
+                ADD CONSTRAINT
+                Referencia a alguma coluna de outra tabela.
+            </p>
+
+            <h3><b>ON DELETE</b></h3>
+            <p>
+                cascade: apaga todos os dados relacionados com o elemento selecionado
+                restrict: não deixa apagar os dados relacionados, mas retorna uma mensagem alertando
+            </p>
+
+            <h3>ON UPDATE</h3>
+            <p>
+                cascade: deica alterar todos os dados relacionados com o elemento selecionado
+                restrict: não deixa alterar os dados relacionados, mas retorna uma mensagem alertando 
+            </p>
+
+            <h2>LIDAR COM TABELAS EM SQL - DML</h2>
+
+            <h3>Inserir valores em uma tebala:</h3>
+            <p>
+                INSERT INTO nome_tabela <br>
+                VALUES(1, 'calça', 'preta', 40)
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Este site foi desenvolvido por Rafaella Evaldt Boff</h3>
+    </footer>
+</body>
+</html>
