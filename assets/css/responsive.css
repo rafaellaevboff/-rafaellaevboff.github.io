@@ -1,7 +1,7 @@
 @media screen and (max-width: 755px){
     #contato{
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
 
     .artigo ul{
